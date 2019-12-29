@@ -8,15 +8,15 @@ class Person
   end
 
   def tall?
-    true
+   return true
   end
 
   def basketball_player?
-    false
+    return false
   end
 
   def likes_candy?
-    true
+    return true
   end
   binding.pry
 
