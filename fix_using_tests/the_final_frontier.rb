@@ -14,7 +14,8 @@ def crew
 end
 
 def greet_crew (crew)
-  greeting = crew.each {|crew_member| "Hello #{crew_member}."}
+  greeting = []
+  crew.each {|crew_member| greeting.push("Hello #{crew_member}.")}
   binding.pry
   return greeting
 end
