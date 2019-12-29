@@ -18,7 +18,6 @@ class Person
   def likes_candy?
     return true
   end
-  binding.pry
 
   def ballin_candy_lover?
     if @candy_lover == true
