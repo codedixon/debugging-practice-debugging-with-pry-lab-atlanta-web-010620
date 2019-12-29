@@ -11,6 +11,6 @@ class GasStation
 end
 
 petrol_petes = GasStation.new("Petrol Pete's", 50)
-binding.pry
 seashore_shell = GasStation.new("The Seashore Shell", 40)
+binding.pry
 dinobones = GasStation.new("Dino Bones Gas and Grill", 100)
