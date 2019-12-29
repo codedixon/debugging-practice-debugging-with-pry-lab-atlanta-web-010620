@@ -7,7 +7,7 @@ def state_log(star_date)
   "Captain's Log, star date #{star_date}."
 end
 
-def crews
+def crew
   ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
@@ -18,5 +18,5 @@ end
 def engage
   date = generate_star_date
   state_log(date)
-  greet_crew(crew)
+  return greet_crew(crew)
 end
